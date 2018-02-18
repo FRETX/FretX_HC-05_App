@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/back1"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="PIC 5"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:textSize="35dp"
+        android:textColor="#c23c3c3c" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="E f"
+        android:id="@+id/s6f1"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#c23c3c3c"
+        android:textSize="20dp"
+        android:onClick="s6f1"
+        android:contextClickable="true"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Am F"
+        android:id="@+id/s5f1"
+        android:textColor="#c23c3c3c"
+        android:textSize="20dp"
+        android:onClick="s5f1"
+        android:contextClickable="true"
+        android:layout_below="@+id/s6f1"
+        android:layout_alignStart="@+id/s6f1"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Dss Z"
+        android:id="@+id/s4f1"
+        android:textColor="#c23c3c3c"
+        android:textSize="20dp"
+        android:onClick="s4f1"
+        android:contextClickable="true"
+        android:layout_below="@+id/s5f1"
+        android:layout_alignStart="@+id/s5f1"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Em F"
+        android:id="@+id/s3f1"
+        android:textColor="#c23c3c3c"
+        android:textSize="20dp"
+        android:onClick="s3f1"
+        android:contextClickable="true"
+        android:layout_below="@+id/s4f1"
+        android:layout_alignStart="@+id/s4f1"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="E F sus 4"
+        android:id="@+id/s2f1"
+        android:textColor="#c23c3c3c"
+        android:textSize="20dp"
+        android:onClick="s2f1"
+        android:contextClickable="true"
+        android:layout_below="@+id/s3f1"
+        android:layout_alignStart="@+id/s3f1"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="af"
+        android:id="@+id/s1f1"
+        android:textColor="#c23c3c3c"
+        android:textSize="20dp"
+        android:onClick="s1f1"
+        android:contextClickable="true"
+        android:layout_below="@+id/s2f1"
+        android:layout_alignStart="@+id/s2f1"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

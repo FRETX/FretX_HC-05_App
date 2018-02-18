@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/back1"
+    tools:context="ble.fretx.classic.Selection">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Choose your mode"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="35dp"
+        android:textColor="#c23c3c3c" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="LEARN"
+        android:id="@+id/learn"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:textColor="#c23c3c3c"
+        android:textSize="20dp"
+        android:onClick="learn"
+        android:contextClickable="true"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="CHORDS"
+        android:id="@+id/chord1"
+        android:layout_below="@+id/learn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:textColor="#c23c3c3c"
+        android:textSize="20dp"
+        android:onClick="chords"
+        android:contextClickable="true"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="FRETS"
+        android:id="@+id/fret1"
+        android:textColor="#c23c3c3c"
+        android:textSize="20dp"
+        android:onClick="frets"
+        android:contextClickable="true"
+        android:layout_below="@+id/chord1"
+        android:layout_alignStart="@+id/chord1"
+        android:layout_marginTop="13dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="PIC 1"
+        android:id="@+id/pic1"
+        android:textColor="#c23c3c3c"
+        android:textSize="20dp"
+        android:onClick="pic1"
+        android:contextClickable="true"
+        android:layout_below="@+id/fret1"
+        android:layout_alignStart="@+id/fret1"
+        android:layout_marginTop="13dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="PIC 2"
+        android:id="@+id/pic2"
+        android:textColor="#c23c3c3c"
+        android:textSize="20dp"
+        android:onClick="pic2"
+        android:contextClickable="true"
+        android:layout_below="@+id/pic1"
+        android:layout_alignStart="@+id/pic1"
+        android:layout_marginTop="13dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="PIC 3"
+        android:id="@+id/pic3"
+        android:textColor="#c23c3c3c"
+        android:textSize="20dp"
+        android:onClick="pic3"
+        android:contextClickable="true"
+        android:layout_below="@+id/pic2"
+        android:layout_alignStart="@+id/pic2"
+        android:layout_marginTop="13dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="PIC 4"
+        android:id="@+id/pic4"
+        android:textColor="#c23c3c3c"
+        android:textSize="20dp"
+        android:onClick="pic4"
+        android:contextClickable="true"
+        android:layout_below="@+id/pic3"
+        android:layout_alignStart="@+id/pic3"
+        android:layout_marginTop="13dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="PIC 5"
+        android:id="@+id/pic5"
+        android:textColor="#c23c3c3c"
+        android:textSize="20dp"
+        android:onClick="pic5"
+        android:contextClickable="true"
+        android:layout_below="@+id/pic4"
+        android:layout_alignStart="@+id/pic4"
+        android:layout_marginTop="13dp" />
+
+</RelativeLayout>
